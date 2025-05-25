@@ -1,0 +1,24 @@
+header {
+	font-size: larger;
+	font-weight: bold;
+	text-align: center;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+}
+
+.container {
+	columns: 6 200px;
+	column-gap: 10px;
+}
+
+.container img {
+	width: 100%;
+	border-radius: 8px;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
