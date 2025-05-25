@@ -1,3 +1,15 @@
 h1 {
 	text-align: center;
 }
+
+.counter-app {
+	border: 3px solid black;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+	padding: 10px;
+	width: fit-content;
+	margin: 0 auto;
+}
