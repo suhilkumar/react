@@ -1,5 +1,6 @@
 import './App.css';
 import LearnAccessApi from './pages/LearnAccessApi';
+import BooksProject from './projects/books';
 import ShowImage from './projects/ShowImage';
 
 function App() {
@@ -11,8 +12,11 @@ function App() {
 			{/* <Component /> */}
 			{/* {<LearnUseState />} */}
 			{/* <MultiStepForm /> */}
-			<LearnAccessApi />
-			<ShowImage />
+			{/* <LearnAccessApi /> */}
+
+			{/* Projects */}
+			{/* <ShowImage /> */}
+			<BooksProject />
 		</>
 	);
 }
