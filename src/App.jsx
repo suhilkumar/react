@@ -2,6 +2,7 @@ import './App.css';
 import LearnAccessApi from './pages/LearnAccessApi';
 import BooksProject from './projects/books';
 import ShowImage from './projects/ShowImage';
+import Todo from './projects/todo';
 
 function App() {
 	return (
@@ -16,7 +17,8 @@ function App() {
 
 			{/* Projects */}
 			{/* <ShowImage /> */}
-			<BooksProject />
+			{/* <BooksProject /> */}
+			<Todo />
 		</>
 	);
 }

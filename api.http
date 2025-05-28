@@ -1,0 +1,28 @@
+GET http://localhost:3000/books HTTP/1.1
+Content-Type: application/json
+
+### this is a seperater 
+
+POST  http://localhost:3000/books HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 9001,
+  "title": "The Great Gatsby",
+  "description": "F. Scott Fitzgerald publishedYear : 1925 "
+}
+
+
+###
+
+PUT http://localhost:3000/books/9001 HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "The dark Tower",
+  "description": "Stephen King publishedYear : 1982 "
+}
+
+###
+DELETE http://localhost:3000/books/9001 HTTP/1.1
+Content-Type: application/json

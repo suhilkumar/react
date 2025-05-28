@@ -1,7 +1,9 @@
+import { useState } from 'react';
+import './book.css';
 import BookCreate from './components/BookCreate';
 import BookList from './components/BookList';
-import './book.css';
-import { useState } from 'react';
+import DateTime from './components/DateTime';
+
 const BooksProject = () => {
 	// create a booklist state
 	const [bookList, setBookList] = useState([]);
@@ -35,7 +37,10 @@ const BooksProject = () => {
 	};
 	return (
 		<div className="container">
-			<header>Books Project</header>
+			<header>
+				<h1>Books Project</h1>
+				<DateTime />
+			</header>
 			<main className="main-container">
 				<BookCreate createBook={createBook} />
 				<BookList
