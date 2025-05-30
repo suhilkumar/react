@@ -1,24 +1,10 @@
 import './App.css';
-import LearnAccessApi from './pages/LearnAccessApi';
-import BooksProject from './projects/books';
-import ShowImage from './projects/ShowImage';
-import Todo from './projects/todo';
+import Button from './shared/Button';
 
 function App() {
 	return (
 		<>
-			{/* <LearnReact /> */}
-			{/* <LearnJSX /> */}
-			{/* <LearnProps /> */}
-			{/* <Component /> */}
-			{/* {<LearnUseState />} */}
-			{/* <MultiStepForm /> */}
-			{/* <LearnAccessApi /> */}
-
-			{/* Projects */}
-			{/* <ShowImage /> */}
-			{/* <BooksProject /> */}
-			<Todo />
+			<h1>What is redux toolkit query?</h1>
 		</>
 	);
 }

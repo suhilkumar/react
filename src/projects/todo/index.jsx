@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { addTodos, baseURL } from './api';
+import { baseURL } from './api';
 import TodoList from './Component/TodoList';
 import './index.css';
 import CreateTodo from './Component/CreateTodo';
