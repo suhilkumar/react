@@ -1,47 +1,53 @@
 {
-  "books": [
-    {
-      "id": "ny178nn",
-      "title": "asdf",
-      "description": "agdnskl;agnl",
-      "updatedAt": "5/26/2025, 5:00:33 AM"
-    },
-    {
-      "id": "9001",
-      "title": "The Great Gatsby",
-      "description": "F. Scott Fitzgerald publishedYear : 1925 "
-    }
-  ],
-  "todos": [
-    {
-      "id": "2",
-      "title": "Walk the dog",
-      "description": "so that i can exercise"
-    },
-    {
-      "id": "b503",
-      "title": "why do i argue?",
-      "description": "because i am trying to teach her the importance of time also i need to learn as well \nbut she needs to listen"
-    },
-    {
-      "id": "d778",
-      "title": "suhil",
-      "description": "you need to finish context"
-    },
-    {
-      "id": "8218",
-      "title": "useEffect",
-      "description": "Learn when to call useEffect()"
-    },
-    {
-      "id": "c1c3",
-      "title": "rucha",
-      "description": "she needs to learn and adapt to how can she manage her works"
-    },
-    {
-      "id": "bf39",
-      "title": "sanjay",
-      "description": "he needs to get the list of all wood needed for garden bed"
-    }
-  ]
+	"books": [
+		{
+			"id": "ny178nn",
+			"title": "asdf",
+			"description": "agdnskl;agnl",
+			"updatedAt": "5/26/2025, 5:00:33 AM"
+		},
+		{
+			"id": "9001",
+			"title": "The Great Gatsby",
+			"description": "F. Scott Fitzgerald publishedYear : 1925 "
+		}
+	],
+	"todos": [
+		{
+			"id": "2",
+			"title": "Walk the dog",
+			"description": "so that i can exercise"
+		},
+		{
+			"id": "b503",
+			"title": "why do i argue?",
+			"description": "because i am trying to teach her the importance of time also i need to learn as well \nbut she needs to listen"
+		},
+		{
+			"id": "d778",
+			"title": "suhil",
+			"description": "you need to finish context"
+		},
+		{
+			"id": "8218",
+			"title": "useEffect",
+			"description": "Learn when to call useEffect()"
+		},
+		{
+			"id": "c1c3",
+			"title": "rucha",
+			"description": "she needs to learn and adapt to how can she manage her works"
+		},
+		{
+			"id": "bf39",
+			"title": "sanjay",
+			"description": "he needs to get the list of all wood needed for garden bed"
+		}
+	],
+	"task_buds": [
+		{ "id": 12358, "title": "Walk the dog", "isDone": false },
+		{ "id": 58461, "title": "Go to Gym", "isDone": false },
+		{ "id": 54535, "title": "drink coffee", "isDone": true },
+		{ "id": 32311, "title": "take the nap", "isDone": false }
+	]
 }

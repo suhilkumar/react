@@ -1,12 +1,8 @@
 import './App.css';
-import Button from './shared/Button';
+import TaskBuds from './projects/taskbud';
 
 function App() {
-	return (
-		<>
-			<h1>What is redux toolkit query?</h1>
-		</>
-	);
+	return <TaskBuds />;
 }
 
 export default App;
